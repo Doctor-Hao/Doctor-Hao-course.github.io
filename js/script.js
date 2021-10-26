@@ -27,3 +27,53 @@ burger.addEventListener("click", function (e) {
 	menu.classList.toggle('_active');
 	lock.classList.toggle('_lock');
 });
+
+
+//<Якоря>===========================================================================
+
+function forPeople(top)
+{
+	const about = document.querySelector(".want");
+	about.scrollIntoView({
+		block: "start",
+		inline: "nearest",
+		behavior: "smooth"
+	});
+}
+function programmCourse(top)
+{
+	const about = document.querySelector(".education");
+	about.scrollIntoView({
+		block: "start",
+		inline: "nearest",
+		behavior: "smooth"
+	});
+}
+function reviews(top)
+{
+	const about = document.querySelector(".reviews");
+	about.scrollIntoView({
+		block: "start",
+		inline: "nearest",
+		behavior: "smooth"
+	});
+}
+function Cost(top)
+{
+	const about = document.querySelector(".price");
+	about.scrollIntoView({
+		block: "start",
+		inline: "nearest",
+		behavior: "smooth"
+	});
+}
+function Form(top)
+{
+	const about = document.querySelector(".learn");
+	about.scrollIntoView({
+		block: "start",
+		inline: "nearest",
+		behavior: "smooth"
+	});
+}
+//</Якоря>===========================================================================
