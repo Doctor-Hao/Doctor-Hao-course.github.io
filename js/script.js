@@ -17,6 +17,34 @@ testWebP(function (support) {
 });
 
 
+//<Swiper>============================================================================
+// Инициализация Swiper
+new Swiper('.image-slider', {
+	//Автовысота
+	autoHeight: true,
+
+	//Бесконечная прокрутка
+	loop: false,
+
+	//стрелки
+	// navigation: {
+	// 	nextEl: '.swiper-button-next',
+	// 	prevEl: '.swiper-button-prev',
+	// },
+
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+
+	slidesPerView: 1,
+
+	spaceBetween: 30,
+
+});
+//</Swiper>===========================================================================
+
+
 let burger = document.querySelector('.icon-menu');
 burger.addEventListener("click", function (e) {
 	let burger_icon = document.querySelector('.icon-menu');
